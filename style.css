@@ -1,0 +1,54 @@
+body {
+    padding-left: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 10px 70px;
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+   
+    align-items: center;
+    
+}
+
+h3 {
+    margin: auto;
+    
+    height: 50px;
+    line-height: 100px;
+
+    text-align: center;
+    color: green;
+}
+
+input {
+    width: 100%;
+    position: relative;
+    display: block;
+    
+}
+
+
+
+.btn {
+    margin: 20px 500px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+table {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+

@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Expense App</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+        <main>
+            <div id="title" class="title" >
+                <h3>Add a new item</h3>
+                <form id="form" autocomplete="on">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" placeholder="Where was the expense made?" autofocus>
+                    <label for="date">Date: </label>
+                    <input type="date" id="date">
+                    <label for="amount">Amount: </label>
+                    <input type="text" id="amount" placeholder="Enter the amount spent">
+                </form>
+                <button type="button" class="btn btn-success btn-lg active" aria-pressed="true" >Add Expense</button>
+            
+               
+                   </div>
+                 </div>    
+                </div>
+                <table id="table" class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody id="expenses-list"></tbody>
+                    
+                </table>
+
+            </div>
+        </main>
+        <script src="./script.js"></script>
 </body>
 </html>
